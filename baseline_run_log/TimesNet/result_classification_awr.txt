@@ -1,0 +1,3 @@
+classification_ArticularyWordRecognition_TimesNet_UEA_ftM_sl144_ll48_pl0_dm32_nh8_el2_dl1_df32_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+accuracy:0.9766666666666667
+F1:0.9766071146245058

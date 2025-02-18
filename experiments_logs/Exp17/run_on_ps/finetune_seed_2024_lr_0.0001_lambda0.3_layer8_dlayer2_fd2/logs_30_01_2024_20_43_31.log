@@ -1,0 +1,40 @@
+=============================================
+Dataset: PhonemeSpectra
+Method:  TS-TCC
+Mode:    finetune
+Seed:    2024
+mask:    0.75
+lam:     0.3
+lr:      0.0001
+ft_lt:   0.0001
+pre_epo: 100
+ft_epo:  200
+head:    4
+layer:   8
+d_head:  2
+d_layer: 2
+fd_layer:2
+=============================================
+Data loaded ...
+Linear-training started ....
+pretrain epoch 90 starting lt ....
+EP10 - Better Testing: Acc=21.9050| Precision = 22.1893 | Recall = 22.0066 | F1 = 21.4409
+EP20 - Better Testing: Acc=22.2356| Precision = 22.6687 | Recall = 22.3604 | F1 = 21.9746
+EP40 - Better Testing: Acc=22.6262| Precision = 23.3382 | Recall = 22.7480 | F1 = 22.7346
+100: Train Loss     : 0.0059	 | 	Train Accuracy     : 0.9987	Valid Loss     : 0.0057	 | 	Valid Accuracy     : 0.9987
+200: Train Loss     : 0.0058	 | 	Train Accuracy     : 0.9987	Valid Loss     : 0.0056	 | 	Valid Accuracy     : 0.9987
+pretrain epoch 90 best acc: 22.6262
+pretrain epoch 95 starting lt ....
+100: Train Loss     : 0.0061	 | 	Train Accuracy     : 0.9987	Valid Loss     : 0.0058	 | 	Valid Accuracy     : 0.9987
+200: Train Loss     : 0.0060	 | 	Train Accuracy     : 0.9987	Valid Loss     : 0.0058	 | 	Valid Accuracy     : 0.9987
+pretrain epoch 95 best acc: 21.9050
+pretrain epoch 100 starting lt ....
+100: Train Loss     : 0.0062	 | 	Train Accuracy     : 0.9987	Valid Loss     : 0.0057	 | 	Valid Accuracy     : 0.9987
+200: Train Loss     : 0.0045	 | 	Train Accuracy     : 0.9991	Valid Loss     : 0.0056	 | 	Valid Accuracy     : 0.9987
+pretrain epoch 100 best acc: 22.0553
+Linear-training ended ....
+====================================================================================================
+EP100 - Best Testing: Acc=22.6262| Precision = 23.3382 | Recall = 22.7480 | F1 = 22.7346
+====================================================================================================
+Training time is : 0:17:21.058059
+acc list: ([22.626201923076923, 23.338212005227255, 22.747962631683563, 22.73464455504751], [22.626201923076923, 21.905048076923077, 22.05528846153846])

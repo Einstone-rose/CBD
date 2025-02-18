@@ -1,0 +1,4 @@
+classification_ArticularyWordRecognition_FEDformer_UEA_ftM_sl144_ll48_pl0_dm128_nh8_el3_dl1_df256_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+accuracy:0.55859375
+F1:0.523811733317402
+

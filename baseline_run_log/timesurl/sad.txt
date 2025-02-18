@@ -1,0 +1,12 @@
+root@autodl-container-b8cd119e52-793222eb:~/autodl-tmp/TimesURL-main/src# python train.py SpokenArabicDigits test --loader UEA --eval
+Dataset: SpokenArabicDigits
+Arguments: Namespace(batch_size=8, dataset='SpokenArabicDigits', epochs=None, eval=True, gpu=0, irregular=0, iters=None, lmd=0.01, load_tp=False, loader='UEA', lr=0.0001, mask_ratio_per_seg=0.05, max_threads=None, max_train_length=3000, repr_dims=320, run_name='test', save_every=None, seed=None, segment_num=3, sgd=False, temp=1.0)
+Loading data... done
+(6599, 93, 14)
+X_train: torch.Size([6599, 93, 27])
+Epoch #0: loss=0.6472871094942093
+
+Training time: 0:02:23.123127
+
+Evaluation result: {'acc': 0.9586175534333788, 'auprc': 0.989668035042777}
+Finished.

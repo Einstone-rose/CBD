@@ -1,0 +1,236 @@
+=============================================
+Pre-training Dataset: PhonemeSpectra
+Target (fine-tuning) Dataset: MotorImagery
+Seed: 2023
+Method:  SimMTM
+Mode:    pre_train
+Pretrain Learning rate:    0.0001
+Masking ratio:    0.5
+Pretrain Epochs:    10
+Finetune Learning rate:    0.0001
+Finetune Epochs:    100
+Temperature: 0.2
+=============================================
+Pre-training started ....
+Pre-training Epoch: 1	 Train Loss: 12.0771	 CL Loss: 12.1169	 RB Loss: 9.3060
+
+Pre-training Epoch: 2	 Train Loss: 9.6493	 CL Loss: 9.2511	 RB Loss: 7.3734
+
+Fine-tuning started ....
+
+Epoch : 5	 | 	  finetune Loss: 3.4565	 | 	Acc: 0.0913	 | 	F1: 0.0641
+
+Epoch : 10	 | 	  finetune Loss: 3.3100	 | 	Acc: 0.1275	 | 	F1: 0.0967
+EP10 - Better Testing: Acc=8.1718| Precision = 7.1313 | Recall = 8.1704 | F1 = 5.2863
+
+Epoch : 15	 | 	  finetune Loss: 3.2030	 | 	Acc: 0.1462	 | 	F1: 0.1251
+EP15 - Better Testing: Acc=8.4104| Precision = 9.1946 | Recall = 8.4093 | F1 = 6.4998
+
+Epoch : 20	 | 	  finetune Loss: 3.1173	 | 	Acc: 0.1622	 | 	F1: 0.1473
+EP20 - Better Testing: Acc=9.9314| Precision = 9.2842 | Recall = 9.9298 | F1 = 8.0719
+
+Epoch : 25	 | 	  finetune Loss: 3.0402	 | 	Acc: 0.1706	 | 	F1: 0.1243
+EP25 - Better Testing: Acc=10.6472| Precision = 11.8768 | Recall = 10.6454 | F1 = 9.3395
+
+Epoch : 30	 | 	  finetune Loss: 2.9760	 | 	Acc: 0.1853	 | 	F1: 0.1332
+
+Epoch : 35	 | 	  finetune Loss: 2.9213	 | 	Acc: 0.1991	 | 	F1: 0.1776
+EP35 - Better Testing: Acc=11.1542| Precision = 13.1106 | Recall = 11.1537 | F1 = 10.1021
+
+Epoch : 40	 | 	  finetune Loss: 2.8703	 | 	Acc: 0.2059	 | 	F1: 0.1253
+EP40 - Better Testing: Acc=11.4226| Precision = 12.0519 | Recall = 11.4203 | F1 = 10.3616
+
+Epoch : 45	 | 	  finetune Loss: 2.8151	 | 	Acc: 0.2225	 | 	F1: 0.2200
+EP45 - Better Testing: Acc=11.9296| Precision = 14.5364 | Recall = 11.9292 | F1 = 10.9666
+
+Epoch : 50	 | 	  finetune Loss: 2.7671	 | 	Acc: 0.2359	 | 	F1: 0.2104
+EP50 - Better Testing: Acc=12.5559| Precision = 14.6115 | Recall = 12.5539 | F1 = 11.3862
+
+Epoch : 55	 | 	  finetune Loss: 2.7311	 | 	Acc: 0.2369	 | 	F1: 0.2115
+EP55 - Better Testing: Acc=12.7349| Precision = 13.3175 | Recall = 12.7346 | F1 = 11.7418
+
+Epoch : 60	 | 	  finetune Loss: 2.6819	 | 	Acc: 0.2472	 | 	F1: 0.1832
+
+Epoch : 65	 | 	  finetune Loss: 2.6347	 | 	Acc: 0.2663	 | 	F1: 0.1832
+EP65 - Better Testing: Acc=12.9138| Precision = 13.4083 | Recall = 12.9149 | F1 = 11.5511
+
+Epoch : 70	 | 	  finetune Loss: 2.5928	 | 	Acc: 0.2684	 | 	F1: 0.2179
+EP70 - Better Testing: Acc=13.3313| Precision = 13.8303 | Recall = 13.3323 | F1 = 11.8889
+
+Epoch : 75	 | 	  finetune Loss: 2.5592	 | 	Acc: 0.2897	 | 	F1: 0.1360
+EP75 - Better Testing: Acc=13.9576| Precision = 13.4990 | Recall = 13.9584 | F1 = 12.5415
+
+Epoch : 80	 | 	  finetune Loss: 2.5103	 | 	Acc: 0.2878	 | 	F1: 0.2175
+
+Epoch : 85	 | 	  finetune Loss: 2.4721	 | 	Acc: 0.3003	 | 	F1: 0.2192
+
+Epoch : 90	 | 	  finetune Loss: 2.4442	 | 	Acc: 0.3100	 | 	F1: 0.2480
+
+Epoch : 95	 | 	  finetune Loss: 2.4061	 | 	Acc: 0.3056	 | 	F1: 0.2945
+EP95 - Better Testing: Acc=14.2261| Precision = 16.6799 | Recall = 14.2281 | F1 = 13.0658
+
+Epoch : 100	 | 	  finetune Loss: 2.3679	 | 	Acc: 0.3241	 | 	F1: 0.3320
+Fine-tuning ended ....
+====================================================================================================
+EP2 - Best Testing: Acc=14.2261| Precision = 16.6799 | Recall = 14.2281 | F1 = 13.0658
+====================================================================================================
+Pre-training Epoch: 3	 Train Loss: 9.1963	 CL Loss: 8.6376	 RB Loss: 7.1304
+
+Pre-training Epoch: 4	 Train Loss: 8.9763	 CL Loss: 8.3015	 RB Loss: 7.0707
+
+Fine-tuning started ....
+
+Epoch : 5	 | 	  finetune Loss: 3.4280	 | 	Acc: 0.1013	 | 	F1: 0.0827
+
+Epoch : 10	 | 	  finetune Loss: 3.2811	 | 	Acc: 0.1369	 | 	F1: 0.0838
+
+Epoch : 15	 | 	  finetune Loss: 3.1637	 | 	Acc: 0.1572	 | 	F1: 0.0990
+
+Epoch : 20	 | 	  finetune Loss: 3.0697	 | 	Acc: 0.1703	 | 	F1: 0.1221
+
+Epoch : 25	 | 	  finetune Loss: 2.9912	 | 	Acc: 0.1828	 | 	F1: 0.1393
+
+Epoch : 30	 | 	  finetune Loss: 2.9228	 | 	Acc: 0.1972	 | 	F1: 0.2092
+
+Epoch : 35	 | 	  finetune Loss: 2.8657	 | 	Acc: 0.1941	 | 	F1: 0.1784
+
+Epoch : 40	 | 	  finetune Loss: 2.8072	 | 	Acc: 0.2231	 | 	F1: 0.2212
+
+Epoch : 45	 | 	  finetune Loss: 2.7571	 | 	Acc: 0.2253	 | 	F1: 0.1746
+
+Epoch : 50	 | 	  finetune Loss: 2.6935	 | 	Acc: 0.2497	 | 	F1: 0.2218
+
+Epoch : 55	 | 	  finetune Loss: 2.6589	 | 	Acc: 0.2459	 | 	F1: 0.1309
+
+Epoch : 60	 | 	  finetune Loss: 2.6151	 | 	Acc: 0.2575	 | 	F1: 0.1793
+
+Epoch : 65	 | 	  finetune Loss: 2.5749	 | 	Acc: 0.2716	 | 	F1: 0.2937
+
+Epoch : 70	 | 	  finetune Loss: 2.5352	 | 	Acc: 0.2784	 | 	F1: 0.2637
+
+Epoch : 75	 | 	  finetune Loss: 2.4986	 | 	Acc: 0.2850	 | 	F1: 0.1896
+
+Epoch : 80	 | 	  finetune Loss: 2.4522	 | 	Acc: 0.3025	 | 	F1: 0.2067
+
+Epoch : 85	 | 	  finetune Loss: 2.4146	 | 	Acc: 0.3041	 | 	F1: 0.2457
+
+Epoch : 90	 | 	  finetune Loss: 2.3834	 | 	Acc: 0.3128	 | 	F1: 0.1989
+
+Epoch : 95	 | 	  finetune Loss: 2.3359	 | 	Acc: 0.3313	 | 	F1: 0.2905
+EP95 - Better Testing: Acc=14.9717| Precision = 15.3183 | Recall = 14.9742 | F1 = 14.3633
+
+Epoch : 100	 | 	  finetune Loss: 2.3203	 | 	Acc: 0.3306	 | 	F1: 0.3249
+Fine-tuning ended ....
+====================================================================================================
+EP4 - Best Testing: Acc=14.9717| Precision = 15.3183 | Recall = 14.9742 | F1 = 14.3633
+====================================================================================================
+Pre-training Epoch: 5	 Train Loss: 8.8007	 CL Loss: 8.0557	 RB Loss: 7.0016
+
+Pre-training Epoch: 6	 Train Loss: 8.7136	 CL Loss: 7.9190	 RB Loss: 6.9939
+
+Fine-tuning started ....
+
+Epoch : 5	 | 	  finetune Loss: 3.4255	 | 	Acc: 0.0966	 | 	F1: 0.0531
+
+Epoch : 10	 | 	  finetune Loss: 3.2706	 | 	Acc: 0.1247	 | 	F1: 0.0890
+
+Epoch : 15	 | 	  finetune Loss: 3.1532	 | 	Acc: 0.1581	 | 	F1: 0.1246
+
+Epoch : 20	 | 	  finetune Loss: 3.0581	 | 	Acc: 0.1688	 | 	F1: 0.1352
+
+Epoch : 25	 | 	  finetune Loss: 2.9756	 | 	Acc: 0.1813	 | 	F1: 0.2006
+
+Epoch : 30	 | 	  finetune Loss: 2.9146	 | 	Acc: 0.1891	 | 	F1: 0.1408
+
+Epoch : 35	 | 	  finetune Loss: 2.8483	 | 	Acc: 0.2128	 | 	F1: 0.1789
+
+Epoch : 40	 | 	  finetune Loss: 2.7943	 | 	Acc: 0.2269	 | 	F1: 0.2052
+
+Epoch : 45	 | 	  finetune Loss: 2.7517	 | 	Acc: 0.2284	 | 	F1: 0.1826
+
+Epoch : 50	 | 	  finetune Loss: 2.7041	 | 	Acc: 0.2466	 | 	F1: 0.2264
+
+Epoch : 55	 | 	  finetune Loss: 2.6537	 | 	Acc: 0.2484	 | 	F1: 0.2289
+
+Epoch : 60	 | 	  finetune Loss: 2.6187	 | 	Acc: 0.2591	 | 	F1: 0.2069
+
+Epoch : 65	 | 	  finetune Loss: 2.5653	 | 	Acc: 0.2703	 | 	F1: 0.2518
+
+Epoch : 70	 | 	  finetune Loss: 2.5360	 | 	Acc: 0.2753	 | 	F1: 0.2173
+
+Epoch : 75	 | 	  finetune Loss: 2.4999	 | 	Acc: 0.2872	 | 	F1: 0.2643
+
+Epoch : 80	 | 	  finetune Loss: 2.4460	 | 	Acc: 0.2962	 | 	F1: 0.2202
+
+Epoch : 85	 | 	  finetune Loss: 2.4178	 | 	Acc: 0.3016	 | 	F1: 0.2465
+
+Epoch : 90	 | 	  finetune Loss: 2.4026	 | 	Acc: 0.3078	 | 	F1: 0.2614
+EP90 - Better Testing: Acc=15.4489| Precision = 15.0597 | Recall = 15.4509 | F1 = 14.5973
+
+Epoch : 95	 | 	  finetune Loss: 2.3429	 | 	Acc: 0.3106	 | 	F1: 0.2237
+
+Epoch : 100	 | 	  finetune Loss: 2.3204	 | 	Acc: 0.3378	 | 	F1: 0.3169
+Fine-tuning ended ....
+====================================================================================================
+EP6 - Best Testing: Acc=15.4489| Precision = 15.0597 | Recall = 15.4509 | F1 = 14.5973
+====================================================================================================
+Pre-training Epoch: 7	 Train Loss: 8.6226	 CL Loss: 7.8339	 RB Loss: 6.9178
+
+Pre-training Epoch: 8	 Train Loss: 8.5598	 CL Loss: 7.7574	 RB Loss: 6.8818
+
+Fine-tuning started ....
+
+Epoch : 5	 | 	  finetune Loss: 3.4525	 | 	Acc: 0.0791	 | 	F1: 0.0846
+
+Epoch : 10	 | 	  finetune Loss: 3.3132	 | 	Acc: 0.1187	 | 	F1: 0.1057
+
+Epoch : 15	 | 	  finetune Loss: 3.2072	 | 	Acc: 0.1294	 | 	F1: 0.1011
+
+Epoch : 20	 | 	  finetune Loss: 3.1232	 | 	Acc: 0.1522	 | 	F1: 0.1704
+
+Epoch : 25	 | 	  finetune Loss: 3.0515	 | 	Acc: 0.1678	 | 	F1: 0.1533
+
+Epoch : 30	 | 	  finetune Loss: 2.9883	 | 	Acc: 0.1794	 | 	F1: 0.1625
+
+Epoch : 35	 | 	  finetune Loss: 2.9358	 | 	Acc: 0.1806	 | 	F1: 0.1585
+
+Epoch : 40	 | 	  finetune Loss: 2.8838	 | 	Acc: 0.2000	 | 	F1: 0.1771
+
+Epoch : 45	 | 	  finetune Loss: 2.8402	 | 	Acc: 0.2091	 | 	F1: 0.1591
+
+Epoch : 50	 | 	  finetune Loss: 2.8021	 | 	Acc: 0.2197	 | 	F1: 0.2059
+
+Epoch : 55	 | 	  finetune Loss: 2.7618	 | 	Acc: 0.2250	 | 	F1: 0.2201
+
+Epoch : 60	 | 	  finetune Loss: 2.7370	 | 	Acc: 0.2288	 | 	F1: 0.2337
+
+Epoch : 65	 | 	  finetune Loss: 2.6959	 | 	Acc: 0.2387	 | 	F1: 0.2437
+
+Epoch : 70	 | 	  finetune Loss: 2.6563	 | 	Acc: 0.2450	 | 	F1: 0.2002
+
+Epoch : 75	 | 	  finetune Loss: 2.6414	 | 	Acc: 0.2503	 | 	F1: 0.2935
+
+Epoch : 80	 | 	  finetune Loss: 2.5935	 | 	Acc: 0.2637	 | 	F1: 0.2490
+
+Epoch : 85	 | 	  finetune Loss: 2.5588	 | 	Acc: 0.2731	 | 	F1: 0.2414
+
+Epoch : 90	 | 	  finetune Loss: 2.5330	 | 	Acc: 0.2791	 | 	F1: 0.2081
+
+Epoch : 95	 | 	  finetune Loss: 2.4979	 | 	Acc: 0.2928	 | 	F1: 0.3240
+
+Epoch : 100	 | 	  finetune Loss: 2.4670	 | 	Acc: 0.3006	 | 	F1: 0.2467
+Fine-tuning ended ....
+====================================================================================================
+EP8 - Best Testing: Acc=15.4489| Precision = 15.0597 | Recall = 15.4509 | F1 = 14.5973
+====================================================================================================
+Pre-training Epoch: 9	 Train Loss: 8.5258	 CL Loss: 7.7272	 RB Loss: 6.8512
+
+Pre-training Epoch: 10	 Train Loss: 8.5114	 CL Loss: 7.7027	 RB Loss: 6.8496
+
+Fine-tuning started ....
+
+Epoch : 5	 | 	  finetune Loss: 3.4338	 | 	Acc: 0.0850	 | 	F1: 0.0233
+
+Epoch : 10	 | 	  finetune Loss: 3.2855	 | 	Acc: 0.1194	 | 	F1: 0.1177
+
+Epoch : 15	 | 	  finetune Loss: 3.1772	 | 	Acc: 0.1406	 | 	F1: 0.1617

@@ -1,0 +1,62 @@
+=============================================
+Dataset: HAR
+Method:  TS-TCC
+Mode:    finetune
+Seed:    2023
+mask:    0.75
+lam:     0.1
+lr:      0.0001
+ft_lt:   0.0001
+pre_epo: 100
+ft_epo:  200
+head:    4
+layer:   8
+d_head:  2
+d_layer: 2
+fd_layer:2
+=============================================
+Data loaded ...
+Linear-training started ....
+pretrain epoch 20 starting lt ....
+EP15 - Better Testing: Acc=92.7310| Precision = 92.7630 | Recall = 92.8882 | F1 = 92.7845
+EP30 - Better Testing: Acc=92.8329| Precision = 93.0656 | Recall = 92.9223 | F1 = 92.8106
+EP40 - Better Testing: Acc=93.2065| Precision = 93.1567 | Recall = 93.4052 | F1 = 93.2186
+EP55 - Better Testing: Acc=93.3424| Precision = 93.5058 | Recall = 93.4761 | F1 = 93.4600
+EP75 - Better Testing: Acc=93.6481| Precision = 93.8145 | Recall = 93.8378 | F1 = 93.8239
+EP80 - Better Testing: Acc=93.9878| Precision = 94.1469 | Recall = 94.1618 | F1 = 94.1444
+100: Train Loss     : 0.0296	 | 	Train Accuracy     : 0.9873	Valid Loss     : 0.0628	 | 	Valid Accuracy     : 0.9744
+200: Train Loss     : 0.0265	 | 	Train Accuracy     : 0.9898	Valid Loss     : 0.0617	 | 	Valid Accuracy     : 0.9737
+pretrain epoch 20 best acc: 93.9878
+pretrain epoch 40 starting lt ....
+EP30 - Better Testing: Acc=94.3614| Precision = 94.5088 | Recall = 94.5693 | F1 = 94.5012
+EP50 - Better Testing: Acc=94.4293| Precision = 94.5796 | Recall = 94.5205 | F1 = 94.5090
+EP60 - Better Testing: Acc=94.7351| Precision = 95.0354 | Recall = 94.7753 | F1 = 94.8033
+EP90 - Better Testing: Acc=94.8030| Precision = 94.9633 | Recall = 94.8385 | F1 = 94.7604
+100: Train Loss     : 0.0018	 | 	Train Accuracy     : 0.9993	Valid Loss     : 0.0461	 | 	Valid Accuracy     : 0.9908
+EP100 - Better Testing: Acc=95.2106| Precision = 95.3468 | Recall = 95.2423 | F1 = 95.1899
+EP130 - Better Testing: Acc=95.2446| Precision = 95.3926 | Recall = 95.2773 | F1 = 95.2290
+200: Train Loss     : 0.0018	 | 	Train Accuracy     : 0.9995	Valid Loss     : 0.0493	 | 	Valid Accuracy     : 0.9901
+pretrain epoch 40 best acc: 95.2446
+pretrain epoch 60 starting lt ....
+EP45 - Better Testing: Acc=95.4144| Precision = 95.5887 | Recall = 95.4610 | F1 = 95.4040
+EP65 - Better Testing: Acc=95.4823| Precision = 95.8018 | Recall = 95.5285 | F1 = 95.5035
+EP70 - Better Testing: Acc=95.6182| Precision = 95.8527 | Recall = 95.6682 | F1 = 95.6342
+100: Train Loss     : 0.0035	 | 	Train Accuracy     : 0.9988	Valid Loss     : 0.0352	 | 	Valid Accuracy     : 0.9922
+200: Train Loss     : 0.0063	 | 	Train Accuracy     : 0.9979	Valid Loss     : 0.0347	 | 	Valid Accuracy     : 0.9943
+pretrain epoch 60 best acc: 95.6182
+pretrain epoch 80 starting lt ....
+100: Train Loss     : 0.0050	 | 	Train Accuracy     : 0.9986	Valid Loss     : 0.0412	 | 	Valid Accuracy     : 0.9922
+200: Train Loss     : 0.0033	 | 	Train Accuracy     : 0.9990	Valid Loss     : 0.0401	 | 	Valid Accuracy     : 0.9908
+pretrain epoch 80 best acc: 95.5503
+pretrain epoch 100 starting lt ....
+EP65 - Better Testing: Acc=95.6861| Precision = 95.9174 | Recall = 95.7416 | F1 = 95.7209
+100: Train Loss     : 0.0059	 | 	Train Accuracy     : 0.9976	Valid Loss     : 0.0448	 | 	Valid Accuracy     : 0.9908
+EP125 - Better Testing: Acc=95.7541| Precision = 95.9733 | Recall = 95.8009 | F1 = 95.7788
+200: Train Loss     : 0.0050	 | 	Train Accuracy     : 0.9988	Valid Loss     : 0.0441	 | 	Valid Accuracy     : 0.9908
+pretrain epoch 100 best acc: 95.7541
+Linear-training ended ....
+====================================================================================================
+EP100 - Best Testing: Acc=95.7541| Precision = 95.9733 | Recall = 95.8009 | F1 = 95.7788
+====================================================================================================
+Training time is : 0:26:14.182243
+acc list: ([95.75407608695652, 95.97327151363217, 95.80088116610547, 95.77875811782253], [93.98777173913044, 95.24456521739131, 95.61820652173914, 95.55027173913044, 95.75407608695652])

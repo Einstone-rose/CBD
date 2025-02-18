@@ -1,0 +1,36 @@
+=============================================
+Dataset: HAR
+Method:  TS-TCC
+Mode:    train_linear
+Seed:    2023
+mask:    0.75
+lam:     0.1
+lr:      0.0001
+ft_lt:   0.0001
+pre_epo: 100
+ft_epo:  200
+head:    4
+layer:   8
+d_head:  2
+d_layer: 2
+fd_layer:2
+=============================================
+Data loaded ...
+Linear-training started ....
+pretrain epoch 100 starting lt ....
+EP10 - Better Testing: Acc=92.8329| Precision = 93.0343 | Recall = 92.9046 | F1 = 92.8637 ｜ valLoss = 0.1104 | valAcc = 0.9474
+EP15 - Better Testing: Acc=92.9348| Precision = 93.1154 | Recall = 92.9769 | F1 = 92.9641 ｜ valLoss = 0.1058 | valAcc = 0.9503
+EP35 - Better Testing: Acc=93.5122| Precision = 93.5384 | Recall = 93.6808 | F1 = 93.5942 ｜ valLoss = 0.0958 | valAcc = 0.9567
+EP50 - Better Testing: Acc=93.5802| Precision = 93.7517 | Recall = 93.6700 | F1 = 93.6407 ｜ valLoss = 0.0886 | valAcc = 0.9553
+EP90 - Better Testing: Acc=93.7160| Precision = 93.7577 | Recall = 93.8549 | F1 = 93.7972 ｜ valLoss = 0.0806 | valAcc = 0.9624
+100: Train Loss     : 0.0830	 | 	Train Accuracy     : 0.9618	Valid Loss     : 0.0786	 | 	Valid Accuracy     : 0.9638
+EP105 - Better Testing: Acc=93.7500| Precision = 93.9649 | Recall = 93.8340 | F1 = 93.8122 ｜ valLoss = 0.0815 | valAcc = 0.9602
+EP120 - Better Testing: Acc=94.0557| Precision = 94.1088 | Recall = 94.1640 | F1 = 94.1185 ｜ valLoss = 0.0795 | valAcc = 0.9616
+200: Train Loss     : 0.0673	 | 	Train Accuracy     : 0.9705	Valid Loss     : 0.0752	 | 	Valid Accuracy     : 0.9638
+pretrain epoch 100 best acc: 94.0557
+Linear-training ended ....
+====================================================================================================
+EP200 - Best Testing: Acc=94.0557| Precision = 94.1088 | Recall = 94.1640 | F1 = 94.1185
+====================================================================================================
+Training time is : 0:01:51.395000
+acc list: [94.05570652173914]

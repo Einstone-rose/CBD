@@ -1,0 +1,44 @@
+=============================================
+Dataset: PhonemeSpectra
+Method:  TS-TCC
+Mode:    train_linear
+Seed:    2024
+mask:    0.75
+lam:     0.3
+lr:      0.0001
+ft_lt:   0.0001
+pre_epo: 100
+ft_epo:  200
+head:    4
+layer:   8
+d_head:  2
+d_layer: 2
+fd_layer:2
+=============================================
+Data loaded ...
+Linear-training started ....
+pretrain epoch 90 starting lt ....
+EP10 - Better Testing: Acc=16.7368| Precision = 16.9000 | Recall = 16.7233 | F1 = 15.7751 ｜ valLoss = 1.6654 | valAcc = 0.5822
+EP15 - Better Testing: Acc=17.2776| Precision = 18.2561 | Recall = 17.3375 | F1 = 16.7394 ｜ valLoss = 1.2435 | valAcc = 0.7331
+EP20 - Better Testing: Acc=17.5781| Precision = 18.2302 | Recall = 17.7261 | F1 = 16.8945 ｜ valLoss = 0.9141 | valAcc = 0.8341
+EP35 - Better Testing: Acc=17.6382| Precision = 18.3076 | Recall = 17.7211 | F1 = 17.5769 ｜ valLoss = 0.2997 | valAcc = 0.9828
+EP50 - Better Testing: Acc=17.7885| Precision = 18.2505 | Recall = 17.9090 | F1 = 17.6290 ｜ valLoss = 0.0960 | valAcc = 0.9981
+EP65 - Better Testing: Acc=17.9688| Precision = 18.2909 | Recall = 18.0749 | F1 = 17.8886 ｜ valLoss = 0.0342 | valAcc = 0.9987
+100: Train Loss     : 0.0142	 | 	Train Accuracy     : 0.9987	Valid Loss     : 0.0133	 | 	Valid Accuracy     : 0.9987
+200: Train Loss     : 0.0067	 | 	Train Accuracy     : 0.9987	Valid Loss     : 0.0059	 | 	Valid Accuracy     : 0.9987
+pretrain epoch 90 best acc: 17.9688
+pretrain epoch 95 starting lt ....
+EP15 - Better Testing: Acc=18.4195| Precision = 19.3945 | Recall = 18.4963 | F1 = 17.9141 ｜ valLoss = 1.1701 | valAcc = 0.7516
+100: Train Loss     : 0.0212	 | 	Train Accuracy     : 0.9972	Valid Loss     : 0.0145	 | 	Valid Accuracy     : 0.9981
+200: Train Loss     : 0.0069	 | 	Train Accuracy     : 0.9987	Valid Loss     : 0.0061	 | 	Valid Accuracy     : 0.9987
+pretrain epoch 95 best acc: 18.4195
+pretrain epoch 100 starting lt ....
+100: Train Loss     : 0.0141	 | 	Train Accuracy     : 0.9987	Valid Loss     : 0.0130	 | 	Valid Accuracy     : 0.9987
+200: Train Loss     : 0.0055	 | 	Train Accuracy     : 0.9991	Valid Loss     : 0.0061	 | 	Valid Accuracy     : 0.9987
+pretrain epoch 100 best acc: 18.1190
+Linear-training ended ....
+====================================================================================================
+EP200 - Best Testing: Acc=18.4195| Precision = 19.3945 | Recall = 18.4963 | F1 = 17.9141
+====================================================================================================
+Training time is : 0:09:01.966232
+acc list: [17.96875, 18.419471153846153, 18.118990384615387]

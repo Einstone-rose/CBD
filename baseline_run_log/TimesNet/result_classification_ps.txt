@@ -1,0 +1,3 @@
+classification_PhonemeSpectra_TimesNet_UEA_ftM_sl217_ll48_pl0_dm32_nh8_el2_dl1_df32_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+accuracy:0.1526990754548166
+F1:0.150935198704169

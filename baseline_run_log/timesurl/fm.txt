@@ -1,0 +1,27 @@
+root@autodl-container-b8cd119e52-793222eb:~/autodl-tmp/TimesURL-main/src# python train.py FingerMovements test --loader UEA --eval
+Dataset: FingerMovements
+Arguments: Namespace(batch_size=8, dataset='FingerMovements', epochs=None, eval=True, gpu=0, irregular=0, iters=None, lmd=0.01, load_tp=False, loader='UEA', lr=0.0001, mask_ratio_per_seg=0.05, max_threads=None, max_train_length=3000, repr_dims=320, run_name='test', save_every=None, seed=None, segment_num=3, sgd=False, temp=1.0)
+Loading data... done
+(316, 50, 29)
+X_train: torch.Size([316, 50, 57])
+Epoch #0: loss=1.5579891338944436
+Epoch #1: loss=0.9656956374645234
+Epoch #2: loss=0.7491903118789196
+Epoch #3: loss=0.6529868349432946
+Epoch #4: loss=0.6256194554269314
+Epoch #5: loss=0.5830200657248497
+Epoch #6: loss=0.552819599956274
+Epoch #7: loss=0.5584846884012222
+Epoch #8: loss=0.5314782507717609
+Epoch #9: loss=0.5285580813884735
+Epoch #10: loss=0.5269957430660724
+Epoch #11: loss=0.5034116722643376
+Epoch #12: loss=0.5221806697547435
+Epoch #13: loss=0.5030683215707541
+Epoch #14: loss=0.4681008603423834
+Epoch #15: loss=0.0
+
+Training time: 0:02:47.809695
+
+Evaluation result: {'acc': 0.56, 'auprc': 0}
+Finished.
